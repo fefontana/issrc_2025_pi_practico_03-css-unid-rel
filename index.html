@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Montaña</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado y navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#promotions">Promociones</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h4>Cafetería Montaña</h4>
+        <h1>Café de especialidad</h1>
+        <p>Granos seleccionados, tostado local<br>y pastelería artesanal.</p>
+        <button id="openModalBtn">Ver Menú</button>
+      </div>
+    </section>
+  </header>
+
+  <!-- Modal -->
+  <div id="menuModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Menú Completo</h2>
+      <div class="modal-menu">
+        <div class="menu-item">
+          <img src="assets/images/hogar-barista-wcGUNOXfrS0-unsplash.jpg" alt="Café Espresso">
+          <h3>Café Espresso</h3>
+          <p>$2.50</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/mary-potoplyak-PINsSKMG_2U-unsplash.jpg" alt="Latte Vainilla">
+          <h3>Latte Vainilla</h3>
+          <p>$3.80</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/nik-CGmMvBNJc6s-unsplash.jpg" alt="Tarta de Chocolate">
+          <h3>Tarta de Chocolate</h3>
+          <p>$4.20</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/user_pascal-Mu-mVvfoz-Y-unsplash.jpg" alt="Café Capuchino">
+          <h3>Café Capuchino</h3>
+          <p>$3.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/raymond-petrik-BXE5qS7xSuk-unsplash.jpg" alt="Croissant">
+          <h3>Croissant</h3>
+          <p>$2.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/lemon_cake.png" alt="Tarta de Limón">
+          <h3>Tarta de Limón</h3>
+          <p>$4.50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menú destacado -->
+  <section id="menu">
+    <h2>Menú Destacado</h2>
+    <div class="menu-cards">
+      <div class="card">
+        <img src="assets/images/hogar-barista-wcGUNOXfrS0-unsplash.jpg" alt="Café Espresso">
+        <h3>Café Espresso</h3>
+        <p>$2.50</p>
+      </div>
+      <div class="card">
+        <img src="assets/images/user_pascal-Mu-mVvfoz-Y-unsplash.jpg" alt="Café Capuchino">
+        <h3>Café Capuchino</h3>
+        <p>$3.00</p>
+      </div>
+      <div class="card">
+        <img src="assets/images/raymond-petrik-BXE5qS7xSuk-unsplash.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>$2.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bloque de promoción -->
+  <section class="cupon">
+    <p>☕ ¡20% de descuento en bebidas los lunes por la mañana!</p>
+  </section>
+
+  <!-- Promociones del día -->
+  <section id="promotions">
+    <h2>Promociones del Día</h2>
+    <div class="promotion-grid">
+      <div class="promo-item">Café + Croissant - $5.99</div>
+      <div class="promo-item">Latte + Muffin - $6.49</div>
+      <div class="promo-item">Té + Galletas - $4.99</div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Estrada y Abilene, Achiras</p>
+    <button>Llamar Ahora</button>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Cafetería Montaña. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
